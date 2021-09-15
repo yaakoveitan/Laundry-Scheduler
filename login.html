@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Login Page</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="check.js"></script>
+</head>
+<body>
+  <center>
+    <form action="login.php" method="post" name="form" onsubmit="return check(document.form.user.value, 'Username') && check(document.form.pass.value, 'Password');"  autocomplete="off" >
+      <h1>Log In</h1><br>
+      <input type="text" name="user" id="user" placeholder="USER ID"><br><br>
+      <input type="password" name="pass" id="pass" placeholder="PASSWORD"><br><br>
+      <input type="submit" name="" value="Login"> <br><br>
+      <p>New User? <a href="register.html">Register Here</a></p>
+    </form>
+  </center>
+</body>
+</html>
