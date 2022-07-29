@@ -1,5 +1,5 @@
 # LaundryScheduler
-Laundry scheduling system for apartment building
+Laundry scheduling system for apartment building. This is a full stack project that utilizes HTML, CSS, and JavaScript for the frontend. SQL and php for the backend.
 
 To run, save files to C:/xampp/htdocs
 
